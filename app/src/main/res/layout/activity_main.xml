@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/accueil">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Produit Shop"
+        android:textColor="#BC635252"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="279dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:text="Nos produit"
+        android:textColor="#F31A0707"
+        android:textColorHint="#00EEE9E9" />
+
+</LinearLayout>
+
+

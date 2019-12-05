@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">application_produiteShop</string>
+    <string name="huile">huile</string>
+    <string name="coifure">coifure</string>
+    <string name="manucure">manucure et peducure</string>
+    <string name="maquillage">maquiallage</string>
+    <string name="parfume">parfume</string>
+    <string name="produits">produit solaire</string>
+    <string name="soinc">soin de corp et visage</string>
+    <string name="soint">soin toiltte bebe</string>
+    <string name="sante">sante</string>
+</resources>
+
