@@ -9,5 +9,13 @@
     <string name="soinc">soin de corp et visage</string>
     <string name="soint">soin toiltte bebe</string>
     <string name="sante">sante</string>
+    <string name="image_description">Image_description</string>
+    <string name="text_description">Text_description</string>
+
+    <string name="nos_produit">Nos_produit</string>
+    <string name="huile_visage">Huile_Visage</string>
+    <string name="huile_bio_noble">Huile_bio_Noble</string>
+    <string name="note">Note :</string>
+    <string name="prix">Prix: 60dt</string>
 </resources>
 

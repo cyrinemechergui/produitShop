@@ -2,7 +2,10 @@ package com.isetkl.application_produiteshop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -31,10 +34,9 @@ public class categorie_deProduit extends AppCompatActivity {
 
 
         ArrayList<String> Texte = new ArrayList();
-        Texte.add(getResources().getString(R.string.huile));
-        Texte.add(getResources().getString(R.string.coifure));
-        Texte.add(getResources().getString(R.string.manucure));
-        Texte.add(getResources().getString(R.string.maquillage));
+        Texte.add("Huile");
+        Texte.add("Manicure et pédicure");
+        Texte.add("coiffure");
         Texte.add(getResources().getString(R.string.parfume));
         Texte.add(getResources().getString(R.string.produits));
         Texte.add(getResources().getString(R.string.soinc));
@@ -43,5 +45,23 @@ public class categorie_deProduit extends AppCompatActivity {
 
         Adapter_categorie adapter_recherche = new Adapter_categorie(this, images, Texte);
         listView.setAdapter(adapter_recherche);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch(position)
+                {
+                    case 0:
+                        Intent newActivity = new Intent(categorie_deProduit.this,typehuile.class);
+                        startActivity(newActivity);
+                        break;
+                    case 1:
+                        Intent newActivity1 = new Intent(categorie_deProduit.this,typecoiffure.class);
+                        startActivity(newActivity1);
+                        break;
+                }
+            }
+        });
     }
+
+
 }

@@ -13,19 +13,30 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Produit Shop"
         android:textColor="#BC635252"
-        android:textSize="40sp"
-        android:gravity="center"/>
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="392dp"
+        android:layout_height="227dp"
+        app:srcCompat="@drawable/pps" />
 
     <Button
         android:id="@+id/btn"
         android:layout_width="279dp"
         android:layout_height="78dp"
+        android:layout_margin="20dp"
         android:layout_gravity="center"
         android:text="Nos produit"
         android:textColor="#F31A0707"
-        android:textColorHint="#00EEE9E9" />
+        android:textColorHint="#00EEE9E9"
+        android:background="#FFFFFF"/>
+
+
 
 </LinearLayout>
 
