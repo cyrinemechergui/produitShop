@@ -67,6 +67,8 @@ tools:context=".formulaire_nv_inscri">
     />
 
 
+
+
 <Button
     android:id="@+id/register_btn"
     android:layout_width="match_parent"
@@ -78,7 +80,8 @@ tools:context=".formulaire_nv_inscri">
     android:padding="17dp"
     android:textAllCaps="false"
     android:textSize="18sp"
-    android:text="Create Account"
+    android:text="créer un compte"
+    android:background="#5DBB63"
     android:textColor="@android:color/white"
     />
 

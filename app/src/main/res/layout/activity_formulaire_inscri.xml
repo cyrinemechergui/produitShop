@@ -83,10 +83,26 @@ tools:context=".formulaire_inscri">
     android:layout_marginRight="15dp"
     android:padding="17dp"
     android:textAllCaps="false"
+    android:background="#5DBB63"
     android:textSize="18sp"
-    android:text="Login"
+    android:text="se connecte"
     android:textColor="@android:color/white"
     />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_input"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="créer un compte"
+        android:textColor="@android:color/white"
+        />
 
 
 <TextView
@@ -100,6 +116,7 @@ tools:context=".formulaire_inscri">
     android:textSize="20sp"
     android:textStyle="bold"
     android:layout_marginLeft="80dp"
+    android:layout_marginTop="90dp"
     android:layout_marginEnd="23dp"
     android:layout_marginRight="23dp"
     android:layout_alignParentRight="true" />
@@ -117,6 +134,7 @@ tools:context=".formulaire_inscri">
     android:textStyle="bold"
     android:layout_marginLeft="80dp"
     android:layout_marginStart="25dp"
+    android:layout_marginTop="90dp"
     android:visibility="invisible"
     android:layout_alignParentLeft="true" />
 

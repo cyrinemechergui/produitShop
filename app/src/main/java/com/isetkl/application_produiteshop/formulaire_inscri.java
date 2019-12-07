@@ -52,6 +52,16 @@ public class formulaire_inscri extends AppCompatActivity {
         loadingBar = new ProgressDialog(this);
 
 
+          //btn
+        Button register_btn=findViewById(R.id.register_btn);
+        register_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(formulaire_inscri.this,formulaire_nv_inscri.class));
+
+            }
+        });
+
 
 
         LoginButton.setOnClickListener(new View.OnClickListener() {
@@ -61,6 +71,8 @@ public class formulaire_inscri extends AppCompatActivity {
                 LoginUser();
             }
         });
+
+
 
         AdminLink.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -165,5 +177,9 @@ public class formulaire_inscri extends AppCompatActivity {
             }
         });
     }
+
+
+
+
 }
 
