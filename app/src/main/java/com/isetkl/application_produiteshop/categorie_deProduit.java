@@ -34,14 +34,16 @@ public class categorie_deProduit extends AppCompatActivity {
 
 
         ArrayList<String> Texte = new ArrayList();
-        Texte.add("Huile");
-        Texte.add("Manicure et pédicure");
-        Texte.add("coiffure");
-        Texte.add(getResources().getString(R.string.parfume));
-        Texte.add(getResources().getString(R.string.produits));
-        Texte.add(getResources().getString(R.string.soinc));
-        Texte.add(getResources().getString(R.string.soint));
-        Texte.add(getResources().getString(R.string.sante));
+        Texte.add("huile");
+        Texte.add("coifure");
+        Texte.add("manucure");
+        Texte.add("maquillage");
+        Texte.add("parfum");
+        Texte.add("produit solaire");
+        Texte.add("soi de visage et corps");
+        Texte.add("soi toillet bebe");
+        Texte.add("santé");
+
 
         Adapter_categorie adapter_recherche = new Adapter_categorie(this, images, Texte);
         listView.setAdapter(adapter_recherche);
@@ -58,6 +60,19 @@ public class categorie_deProduit extends AppCompatActivity {
                         Intent newActivity1 = new Intent(categorie_deProduit.this,typecoiffure.class);
                         startActivity(newActivity1);
                         break;
+                    case 2:
+                        Intent newActivity2 = new Intent(categorie_deProduit.this, typemanucure.class);
+                        startActivity(newActivity2);
+                        break;
+                    case 3:
+                        Intent newActivity3 = new Intent(categorie_deProduit.this, typemaquillage.class);
+                        startActivity(newActivity3);
+                        break;
+                    case 4:
+                        Intent newActivity4 = new Intent(categorie_deProduit.this, typeparfume.class);
+                        startActivity(newActivity4);
+                        break;
+
                 }
             }
         });

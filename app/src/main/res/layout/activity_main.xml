@@ -20,7 +20,7 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/im2"
         android:layout_width="392dp"
         android:layout_height="227dp"
         app:srcCompat="@drawable/pps" />
