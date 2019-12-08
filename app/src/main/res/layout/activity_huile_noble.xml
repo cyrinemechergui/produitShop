@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-<<<<<<< HEAD
+
     tools:context=".huile_noble">
-=======
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     tools:context=".huile_noble">
->>>>>>> produitShop/master
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="152dp"
@@ -18,53 +18,30 @@
         app:srcCompat="@drawable/pps" />
 
 
-
-<<<<<<< HEAD
-
-=======
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="50dp"
-        android:layout_height="25dp"
-        app:srcCompat="@drawable/f3" />
->>>>>>> produitShop/master
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-<<<<<<< HEAD
         android:text="@string/huile_bio_noble"
-=======
-        android:text="huile_bio_noble"
->>>>>>> produitShop/master
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <ImageView
-<<<<<<< HEAD
+
         android:id="@+id/imageView2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="300dp"
         app:srcCompat="@drawable/panier2" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="205dp"
-        android:layout_height="192dp"
-=======
-        android:id="@+id/im2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="340dp"
-        app:srcCompat="@drawable/panier2" />
+
 
     <ImageView
         android:id="@+id/im3"
         android:layout_width="200dp"
         android:layout_height="200dp"
->>>>>>> produitShop/master
+
         app:srcCompat="@drawable/hv1" />
 
 
@@ -73,16 +50,13 @@
 
 
         <TextView
-<<<<<<< HEAD
+
             android:id="@+id/titre"
-=======
-            android:id="@+id/titre1"
->>>>>>> produitShop/master
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/note"
             android:textSize="25sp"
-<<<<<<< HEAD
 
             android:textStyle="bold" />
 
@@ -106,23 +80,9 @@
         android:textColor="#F31A0707"
         android:textColorHint="#00EEE9E9"
         android:background="#FFFFFF"/>
-=======
-            android:gravity="center"
-            android:textStyle="bold" />
 
 
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="279dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="#FFFFFF"
-        android:text="Ajouter au panier"
-        android:textColor="#F31A0707"
-        android:textColorHint="#00EEE9E9" />
->>>>>>> produitShop/master
 
 
 </LinearLayout>
