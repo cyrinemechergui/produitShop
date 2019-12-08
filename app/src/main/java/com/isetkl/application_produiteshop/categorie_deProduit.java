@@ -35,10 +35,8 @@ public class categorie_deProduit extends AppCompatActivity {
 
         ArrayList<String> Texte = new ArrayList();
         Texte.add("Huile");
-
-        Texte.add("coiffure");
         Texte.add("Manicure et pédicure");
-        Texte.add("maquillage");
+        Texte.add("coiffure");
         Texte.add(getResources().getString(R.string.parfume));
         Texte.add(getResources().getString(R.string.produits));
         Texte.add(getResources().getString(R.string.soinc));
