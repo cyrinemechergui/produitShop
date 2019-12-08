@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/item1"
+        android:title="Huile"
+
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem1"
+                android:title="Huile visage"/>
+
+            <item android:id="@+id/subitem2"
+                android:title="Huile Corps"/>
+
+        </menu>
+    </item>
+
+
+
+    <item android:id="@+id/item2"
+        android:title="Coiffure"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem3"
+                android:title="Shampoin"/>
+
+            <item android:id="@+id/subitem4"
+                android:title="Masque"/>
+
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/item3"
+        android:title="Manicure_pedicure"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem5"
+                android:title="vernis"/>
+
+            <item android:id="@+id/subitem6"
+                android:title="Produit ongle"/>
+
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/item4"
+        android:title="Maquillage"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem7"
+                android:title="Rouge a levre"/>
+
+            <item android:id="@+id/subitem8"
+                android:title="Fonds"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/item5"
+        android:title="Parfume"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem9"
+                android:title="Homme"/>
+
+            <item android:id="@+id/subitem10"
+                android:title="Femme"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/item6"
+        android:title="Produit solaire"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem11"
+                android:title="Homme"/>
+
+            <item android:id="@+id/subitem12"
+                android:title="Femme"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/item7"
+        android:title="soin corps et visage"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem13"
+                android:title="corps"/>
+
+            <item android:id="@+id/subitem14"
+                android:title="visage"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/item8"
+        android:title="soin toilette bebe"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem15"
+                android:title="huile bebe"/>
+
+            <item android:id="@+id/subitem16"
+                android:title="pommade"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/item9"
+        android:title="Sante"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item android:id="@+id/subitem17"
+                android:title="Talc"/>
+
+            <item android:id="@+id/subitem18"
+                android:title="Couche"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>
+
+
