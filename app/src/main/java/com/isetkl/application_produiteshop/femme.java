@@ -12,12 +12,12 @@ import android.widget.SimpleAdapter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class typeparfume extends AppCompatActivity {
+public class femme extends AppCompatActivity {
     protected ListView maListViewPerso;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_typeparfume);
+        setContentView(R.layout.activity_femme);
         maListViewPerso = findViewById(R.id.listviewperso);
 
         // Création de la "ArrayList" qui nous permettra de remplir la "ListView"
@@ -28,25 +28,42 @@ public class typeparfume extends AppCompatActivity {
 
         // Création d'une "HashMap" pour insérer les informations du premier item de notre "ListView"
         map = new HashMap<>();
-        // On insère un élément "titre" que l'on récupérera dans le "TextView titre" créé dans le fichier affichage_item.xml
-        map.put("titre", "parfume pour femme");
-
         // On insère la "référence" à l'image (convertit en String car normalement c'est un int) que l'on récupérera dans le "ImageView" créé dans le fichier affichage_item.xml
-        map.put("img", String.valueOf(R.drawable.f));
+        map.put("img", String.valueOf(R.drawable.fm1));
+        // On insère un élément "titre" que l'on récupérera dans le "TextView titre" créé dans le fichier affichage_item.xml
+        map.put("titre", "olympia ");
+
+
         // Enfin on ajoute cette "HashMap" dans la "ArrayList"
         listItem.add(map);
-        // On refait la manip plusieurs fois avec des données différentes pour former les items de notre "ListView"
-        map = new HashMap<>();
-        map.put("titre", "parfume pour homme");
 
-        map.put("img", String.valueOf(R.drawable.f));
+        // On refait la manip plusieurs fois avec des données différentes pour former les items de notre "ListView"
+
+        map = new HashMap<>();
+        map.put("titre", "la vie et belle");
+
+        map.put("img", String.valueOf(R.drawable.fm2));
         listItem.add(map);
+
+        map = new HashMap<>();
+        map.put("titre", "trisor");
+
+        map.put("img", String.valueOf(R.drawable.fm3));
+        listItem.add(map);
+        map = new HashMap<>();
+        map.put("titre", "channel");
+
+        map.put("img", String.valueOf(R.drawable.fm4));
+        listItem.add(map);
+
+
+
         // Création d'un SimpleAdapter qui se chargera de mettre les items présents dans notre liste (listItem) dans la vue affichage_item
         SimpleAdapter adapter = new SimpleAdapter(this.getBaseContext(),
                 listItem,
-                R.layout.typeparfume,
-                new String[]{"titre", "img"},
-                new int[]{R.id.titre,R.id.img});
+                R.layout.femme,
+                new String[]{"img","titre"},
+                new int[]{R.id.img,R.id.titre});
 
         // On attribue à notre "ListView" l'adapter que l'on vient de créer
         maListViewPerso.setAdapter(adapter);
@@ -56,20 +73,29 @@ public class typeparfume extends AppCompatActivity {
                 switch(position)
                 {
                     case 0:
-                        Intent newActivity = new Intent(typeparfume.this,femme.class);
+                        Intent newActivity = new Intent(femme.this,confirmepfemme1.class);
                         startActivity(newActivity);
                         break;
                     case 1:
-                        Intent newActivity1 = new Intent(typeparfume.this,homme.class);
+                        Intent newActivity1 = new Intent(femme.this,confirmepfemme2.class);
                         startActivity(newActivity1);
                         break;
+                    case 2:
+                        Intent newActivity2 = new Intent(femme.this,confirmepfemme3.class);
+                        startActivity(newActivity2);
+                        break;
+                    case 3:
+                        Intent newActivity3 = new Intent(femme.this,confirmepfemme4.class);
+                        startActivity(newActivity3);
+                        break;
+
                 }
             }
         });
 
 
+
     }
+
 }
-
-
 
